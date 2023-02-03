@@ -1,16 +1,16 @@
 
 function [dciFormat0RawLen,dciFormat1ALen] = CheckFormat1_1ABit(crntiScramb,N_RB, Duplexing_Mode, Subframe_Assignment, varargin)
 
-AMBIG_SIZES = [12, 14, 16, 20, 24, 26, 32, 40, 44, 56 ];
-totalBits = 0;
-i = 0;
-RAT_bit = 1;
+% AMBIG_SIZES = [12, 14, 16, 20, 24, 26, 32, 40, 44, 56 ];
+% totalBits = 0;
+% i = 0;
+% RAT_bit = 1;
 
 %TDD specific bits
-DAI_bits = 2;
-UL_index_bits=2;
-HARQ_proc_add_bit = 1;
-TDD_bits = 0;
+% DAI_bits = 2;
+% UL_index_bits=2;
+% HARQ_proc_add_bit = 1;
+% TDD_bits = 0;
 
 
 %% Processing DCI length for DCI format 0
